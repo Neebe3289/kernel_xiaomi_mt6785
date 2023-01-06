@@ -428,7 +428,6 @@ endif
 ccflags-y += -DMET_USER_EVENT_SUPPORT -DMTK_GPU_DVFS
 ccflags-y += -DGED_DVFS_DEBUG_BUF
 #ccflags-y += -DGED_KPI_DEBUG
-ccflags-y += -DGED_SKI_SUPPORT
 
 VER := eng
 
@@ -505,5 +504,4 @@ ged-y += \
     src/ged_ge.o \
     src/ged_dvfs.o \
     src/ged_gpu_tuner.o \
-    src/ged_kpi.o \
-    src/ged_ski.o
+    src/ged_kpi.o
